@@ -1,0 +1,960 @@
+2014-03-27 16:07:07 Error: [MissingControllerException] Controller class TasksController could not be found.
+Exception Attributes: array (
+  'class' => 'TasksController',
+  'plugin' => NULL,
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-27 16:35:08 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:17 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:18 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:19 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:20 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:20 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:24 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:36:27 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:39:06 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:39:08 Error: [MissingTableException] Table technicals for model Technical was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'technicals',
+  'class' => 'Technical',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('technicals')
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1063): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#5 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(1079): PaginatorComponent->paginate(NULL, Array, Array)
+#6 C:\wamp\www\autoglass-app\Controller\TasksController.php(30): Controller->paginate()
+#7 [internal function]: TasksController->index()
+#8 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-27 16:45:11 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\index.ctp',
+)
+Request URL: /autoglass-app/tasks
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-27 16:46:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`autoglass_veinsa`.`tasks`, CONSTRAINT `fk_tasks_technical` FOREIGN KEY (`technical_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\autoglass-app\Controller\TasksController.php(56): Model->save(Array)
+#5 [internal function]: TasksController->add()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-27 16:47:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`autoglass_veinsa`.`tasks`, CONSTRAINT `fk_tasks_technical` FOREIGN KEY (`technical_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\autoglass-app\Controller\TasksController.php(56): Model->save(Array)
+#5 [internal function]: TasksController->add()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-27 16:51:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`autoglass_veinsa`.`tasks`, CONSTRAINT `fk_tasks_technical` FOREIGN KEY (`technical_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\autoglass-app\Controller\TasksController.php(56): Model->save(Array)
+#5 [internal function]: TasksController->add()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-31 21:39:32 Error: [NotFoundException] Invalid task
+Request URL: /autoglass-app/tasks/edit
+Stack Trace:
+#0 [internal function]: TasksController->edit()
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-31 21:39:59 Error: [NotFoundException] Invalid task
+Request URL: /autoglass-app/tasks/edit
+Stack Trace:
+#0 [internal function]: TasksController->edit()
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 21:06:52 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\UsersController.php, line 120]
+2014-04-02 21:06:52 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/users/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 120)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 120, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 120, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:13:07 Error: [MissingTableException] Table aros_acos for model Permission was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros_acos',
+  'class' => 'Permission',
+  'ds' => 'default',
+)
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Model.php(3498): Model->setSource('aros_acos')
+#1 C:\wamp\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 C:\wamp\cakephp\lib\Cake\Model\Permission.php(81): Model->schema()
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#6 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#7 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#8 [internal function]: AuthComponent->startup(Object(PagesController))
+#9 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#10 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#13 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-02 21:14:16 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:20:44 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:21:55 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:21:56 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:21:56 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:21:57 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:21:57 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 4
+)
+"
+Request URL: /autoglass-app/
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(82): AclNode->node(Array)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(74): Permission->check(Array, 'controllers/Pag...', '*')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(110): DbAcl->check(Array, 'controllers/Pag...', '*')
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Pag...')
+#4 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(464): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 C:\wamp\cakephp\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(PagesController))
+#7 C:\wamp\cakephp\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 C:\wamp\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-02 21:22:24 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /autoglass-app/users/initDB
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Permission.php(222): AclNode->node(Object(Group))
+#1 C:\wamp\cakephp\lib\Cake\Model\Permission.php(174): Permission->getAclLink(Object(Group), 'controllers')
+#2 C:\wamp\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(88): Permission->allow(Object(Group), 'controllers', '*', 1)
+#3 C:\wamp\cakephp\lib\Cake\Controller\Component\AclComponent.php(123): DbAcl->allow(Object(Group), 'controllers', '*')
+#4 C:\wamp\www\autoglass-app\Controller\UsersController.php(52): AclComponent->allow(Object(Group), 'controllers')
+#5 [internal function]: UsersController->initDB()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-02 21:22:47 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /autoglass-app/posts/add
+Stack Trace:
+#0 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-02 21:23:08 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /autoglass-app/posts/add
+Stack Trace:
+#0 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-02 21:29:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\DashboardController.php, line 13]
+2014-04-02 21:29:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:29:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\DashboardController.php, line 13]
+2014-04-02 21:29:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:29:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\DashboardController.php, line 13]
+2014-04-02 21:29:40 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 13, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:30:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\TasksController.php, line 63]
+2014-04-02 21:30:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 63, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 63, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:31:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\TasksController.php, line 64]
+2014-04-02 21:31:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:31:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\TasksController.php, line 64]
+2014-04-02 21:31:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:31:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\autoglass-app\Controller\TasksController.php, line 64]
+2014-04-02 21:31:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /autoglass-app/tasks/add
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\aut...', 64, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 21:50:22 Error: [MissingControllerException] Controller class TasksstepsController could not be found.
+Exception Attributes: array (
+  'class' => 'TasksstepsController',
+  'plugin' => NULL,
+)
+Request URL: /autoglass-app/taskssteps
+Stack Trace:
+#0 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-02 21:50:27 Error: [MissingControllerException] Controller class TasksStepsController could not be found.
+Exception Attributes: array (
+  'class' => 'TasksStepsController',
+  'plugin' => NULL,
+)
+Request URL: /autoglass-app/tasks_steps
+Stack Trace:
+#0 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-02 21:54:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.task_step' in 'where clause'
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#5 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(592): Model->find('all', Array)
+#7 C:\wamp\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('findAllByTaskSt...', Array, Object(Task))
+#8 C:\wamp\www\autoglass-app\Controller\DashboardController.php(13): Model->__call('findAllByTaskSt...', Array)
+#9 C:\wamp\www\autoglass-app\Controller\DashboardController.php(13): Task->findAllByTaskStep(10)
+#10 [internal function]: DashboardController->index()
+#11 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardController), Array)
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-02 21:55:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.task__step_id' in 'where clause'
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#5 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(592): Model->find('all', Array)
+#7 C:\wamp\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('findAllByTask_S...', Array, Object(Task))
+#8 C:\wamp\www\autoglass-app\Controller\DashboardController.php(13): Model->__call('findAllByTask_S...', Array)
+#9 C:\wamp\www\autoglass-app\Controller\DashboardController.php(13): Task->findAllByTask_Step_id(10)
+#10 [internal function]: DashboardController->index()
+#11 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardController), Array)
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-02 21:55:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.task_step' in 'where clause'
+Request URL: /autoglass-app/dashboard
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Task), Array)
+#5 C:\wamp\cakephp\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(592): Model->find('all', Array)
+#7 C:\wamp\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('findAllByTaskSt...', Array, Object(Task))
+#8 C:\wamp\www\autoglass-app\Controller\DashboardController.php(14): Model->__call('findAllByTaskSt...', Array)
+#9 C:\wamp\www\autoglass-app\Controller\DashboardController.php(14): Task->findAllByTaskStep(11)
+#10 [internal function]: DashboardController->index()
+#11 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DashboardController), Array)
+#12 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-02 21:58:42 Error: [MissingActionException] Action DashboardController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'edit',
+)
+Request URL: /autoglass-app/dashboard/edit/48
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-02 22:02:24 Error: [MissingActionException] Action DashboardController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'DashboardController',
+  'action' => 'delete',
+)
+Request URL: /autoglass-app/dashboard/delete/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-02 22:12:19 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 [internal function]: TasksController->iniciar('49')
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:12:50 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 [internal function]: TasksController->iniciar('49')
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:13:29 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 [internal function]: TasksController->iniciar('49')
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:14:44 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:15:27 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:15:47 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:16:50 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:17:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp\www\autoglass-app\Controller\TasksController.php, line 137]
+2014-04-02 22:17:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\aut...', 137)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\aut...', 137, Array)
+#2 C:\wamp\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\aut...', 137, Array)
+#3 C:\wamp\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 22:17:19 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:19:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\autoglass-app\Controller\TasksController.php(134): Model->save()
+#5 [internal function]: TasksController->iniciar()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-02 22:20:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\www\autoglass-app\Controller\TasksController.php(134): Model->save()
+#5 [internal function]: TasksController->iniciar()
+#6 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#7 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-02 22:23:02 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:24:04 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11, Array)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:24:13 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11, Array)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:25:40 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:25:50 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:26:21 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar('49')
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:26:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar('49')
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-02 22:26:50 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:27:01 Error: [MissingViewException] View file "C:\wamp\www\autoglass-app\View\Themed\Cakestrap\Tasks\iniciar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\autoglass-app\\View\\Themed\\Cakestrap\\Tasks\\iniciar.ctp',
+)
+Request URL: /autoglass-app/tasks/iniciar/49
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 22:27:22 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'technical_id' doesn't have a default value
+Request URL: /autoglass-app/tasks/iniciar/dashboard:index
+Stack Trace:
+#0 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `au...', Array)
+#2 C:\wamp\cakephp\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `au...')
+#3 C:\wamp\cakephp\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Task), Array, Array)
+#4 C:\wamp\cakephp\lib\Cake\Model\Model.php(1667): Model->save(Array, Array)
+#5 C:\wamp\www\autoglass-app\Controller\TasksController.php(133): Model->saveField('task_step_id', 11)
+#6 [internal function]: TasksController->iniciar()
+#7 C:\wamp\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\autoglass-app\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
