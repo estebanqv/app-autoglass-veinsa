@@ -1,0 +1,29 @@
+OPCIONES DE TAREAS
+
+
+NUEVAS
+- Listo! Iniciar (ag) > EN PROCESO 
+- Listo! Devolver (ag) > DEVUELTAS
+
+EN PROCESO
+- Pausar (ag) > EN PAUSA
+- Cancelar (ambas partes) > CANCELADA
+- Terminar (ag) > TERMINADA
+
+EN PAUSA
+- Continuar (ag) > EN PROCESO
+- Cancelar (ag) > CANCELADA
+
+TERMINADAS
+- Rechazar (ve) > RECHAZADA
+- Aceptar (ve) > TERMINADA
+
+CANCELADAS
+- Reiniciar (ve) > NUEVA
+
+RECHAZADAS
+- Terminar (ag) > TERMINADA
+- Iniciar (ag) > EN PROCESO
+
+DEVUELTAS
+- Reenviar (ve)
